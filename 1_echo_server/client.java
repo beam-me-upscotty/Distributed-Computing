@@ -14,9 +14,9 @@ public class client {
 		    DataOutputStream out = new DataOutputStream( socket.getOutputStream());
 
 		    //Get message from user
-		    System.out.println("Enter in feet:");
+		    System.out.println("Enter message:");
 		    Scanner scanner = new Scanner(System.in);
-		    String message = scanner.nextFloat();
+		    String message = scanner.next();
 
 		    //send message
 		    out.writeUTF(message);

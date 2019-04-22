@@ -16,7 +16,7 @@ public class client {
 		    //Get message from user
 		    System.out.println("Enter message:");
 		    Scanner scanner = new Scanner(System.in);
-		    String message = scanner.next();
+		    String message = scanner.nextFloat();
 
 		    //send message
 		    out.writeUTF(message);
