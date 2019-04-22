@@ -16,7 +16,6 @@ public class client
 
         Scanner sc = new Scanner(System.in); 
         String inp = sc.nextLine(); 
-        inp+="$"+socket.getLocalPort();
         buf = inp.getBytes();
 
         DatagramPacket packet = new DatagramPacket(buf, buf.length, ip, 1234); 

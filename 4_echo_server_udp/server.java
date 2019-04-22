@@ -22,11 +22,12 @@ public class server
                 ds.receive(DpReceive);
                 String message = new String(messageBytes);
                 System.out.println("Client:-" + message); 
-                DatagramPacket DpSend = new DatagramPacket(messageBytes, messageBytes.length, ip,message.split("\\$")[1]); 
+                DatagramPacket DpSend = new DatagramPacket(messageBytes, messageBytes.length, ip,DpReceive.getPort()); 
                 ds.send(DpReceive);
             }
         }catch(Exception e){
-            System.out.println("Error:"+e.getMessage());
+            e.printStackTrace();
+            System.out.println("Error:"+e.getLocalizedMessage());
         }
         ds.close();
    } 
