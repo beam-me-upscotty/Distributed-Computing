@@ -17,8 +17,9 @@ public class client
         Scanner sc = new Scanner(System.in); 
         String inp = sc.nextLine(); 
         buf = inp.getBytes();
+        System.out.println(buf.length+"");
 
-        DatagramPacket packet = new DatagramPacket(buf, buf.length, ip, 1234); 
+        DatagramPacket packet = new DatagramPacket(buf, buf.length, ip, 1234);
         socket.send(packet);
         System.out.println("Sent");
         byte[] messageBytes = new byte[65535]; 

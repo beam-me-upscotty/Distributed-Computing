@@ -18,12 +18,13 @@ public class server
 
             while(true){
                 byte[] messageBytes = new byte[65535]; 
-                DatagramPacket DpReceive = new DatagramPacket(messageBytes, messageBytes.length); 
-                ds.receive(DpReceive);
-                String message = new String(messageBytes);
-                System.out.println("Client:-" + message);
-                DatagramPacket DpSend = new DatagramPacket(messageBytes, messageBytes.length, ip,DpReceive.getPort()); 
-                ds.send(DpSend);
+
+                DatagramPacket receivedPacket = new DatagramPacket(messageBytes, messageBytes.length); 
+                ds.receive(receivedPacket);
+
+                System.out.println("Client:-" + new String(messageBytes));
+
+                ds.send(receivedPacket);
             }
         }catch(Exception e){
             e.printStackTrace();
