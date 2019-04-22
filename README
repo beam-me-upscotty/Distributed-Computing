@@ -1,0 +1,48 @@
+# Distributed Computing Assignment List
+    1. Echo Server : Design a distributed application which consist of a server and multiple clients using Java TCP sockets. Echo server that allows multiple clients to connect to the server sends an exact text back to the respective client that it receives.
+
+
+    2. Conversion : Design a distributed application in Java which consist of a server and client TCP Sockets using threads. Multiple clients can simultaneously connect to the server and send a value in Feet. The server returns the value in Metres.
+
+
+    3. Conversion : Design a distributed application in Java which consist of a server and client TCP Sockets using threads. Multiple clients can simultaneously connect to the server and send a value in Degrees. The server returns the value in Radians.
+
+
+    4. Echo Server : Design a distributed application which consist of a server and multiple clients using Java UDP sockets. The server sends an exact text back to the respective client that it receives.
+
+
+    5. Design a distributed application using RMI for remote computation where client submits two strings to the server and the server returns the concatenation of the given strings.
+
+    6. Design a distributed application using RMI for remote computation where client submits two strings to the server and the server verifies if string 1 is a substring of string 2 and returns a message as a result accordingly.
+
+
+    7. Design a distributed application using RMI for remote computation where client submits one  string to the server and the server returns the reverse of the given strings.
+
+
+    8. Design a distributed application using RMI for remote computation where client submits one  string to the server and the server returns the number of vowels in the string.
+
+
+    9. Design a distributed application using RMI for remote computation where client submits two numbers to the server and the server returns the addition of the two numbers.
+
+
+
+    10. Design a distributed application using Message Passing Interface (MPI) for remote computation where client submits an integer value to the server and server returns to the client whether the integer sent is a prime number or not.
+
+
+    11. Design a distributed application using Message Passing Interface (MPI) for remote computation where client submits an integer value to the server and the server calculates factorial and returns the result to the client program.
+
+
+    12. Design a distributed application using Message Passing Interface (MPI) for remote computation where client submits a value in Feet to the server and the server converts this input into Meters and sends the value to the client program.
+
+    13. Design a distributed application using Message Passing Interface (MPI) for remote computation where client submits a value in Degrees to the server and the server converts this input into Radians and sends the value to the client program.
+
+
+    14. Develop a distributed application using CORBA that accepts any string from a client and server processes that string and reversed string is returned to the client.
+
+    15. Implement Election algorithm for process co-ordinator selection where the co-ordinator will be selected from set of processes having higher priority using Ring  algorithm.
+
+    16. Implement Election algorithm for process co-ordinator selection where the co-ordinator will be selected from set of processes having higher priority using Bully algorithm.
+
+    17. Implement SOAP Web Service that performs addition of two numbers and integrates it with client's application using Netbeans IDE.
+
+    18. Implement Publisher-Subscriber application in which Publisher will publish message and various Subscriber will subscribe or receive that message using Apache ActiveMQ software.
