@@ -1,0 +1,15 @@
+#How to execute
+
+(In Server Folder)
+$javac *.java
+$rmic ServerImpl
+$rmiregistry
+$java Server
+
+Now copy these files from server folder to client folder
+	ServerImpl_Stub.class
+	ServerInterface.class
+	
+(In Client Folder)
+$ javac client.java
+$ java client

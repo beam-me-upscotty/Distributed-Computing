@@ -21,9 +21,9 @@ public class server
                 DatagramPacket DpReceive = new DatagramPacket(messageBytes, messageBytes.length); 
                 ds.receive(DpReceive);
                 String message = new String(messageBytes);
-                System.out.println("Client:-" + message); 
+                System.out.println("Client:-" + message);
                 DatagramPacket DpSend = new DatagramPacket(messageBytes, messageBytes.length, ip,DpReceive.getPort()); 
-                ds.send(DpReceive);
+                ds.send(DpSend);
             }
         }catch(Exception e){
             e.printStackTrace();
