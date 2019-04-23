@@ -26,16 +26,15 @@
 
 
 
-    10. Design a distributed application using Message Passing Interface (MPI) for remote computation where client submits an integer value to the server and server returns to the client whether the integer sent is a prime number or not.
+    10. Design a distributed application using Message Passing Interface (MPI) for remote computation where server has some data, multiple clients access and process the data, the results are combined
 
 
-    11. Design a distributed application using Message Passing Interface (MPI) for remote computation where client submits an integer value to the server and the server calculates factorial and returns the result to the client program.
+    11. WebService SOAP: Implement a Web Service that will take some text as input and return some processed text as output to the client
 
 
-    12. Design a distributed application using Message Passing Interface (MPI) for remote computation where client submits a value in Feet to the server and the server converts this input into Meters and sends the value to the client program.
+    12. WebService SOAP: Implement a Web Service for Arithmatic operations. Takes 2 numbers and the operation as input and returns the result to the client
 
-    13. Design a distributed application using Message Passing Interface (MPI) for remote computation where client submits a value in Degrees to the server and the server converts this input into Radians and sends the value to the client program.
-
+    13. WebService SOAP: Implement a Web Service that takes temperature in Celcius and returns it in Farenheit
 
     14. Develop a distributed application using CORBA that accepts any string from a client and server processes that string and reversed string is returned to the client.
 
