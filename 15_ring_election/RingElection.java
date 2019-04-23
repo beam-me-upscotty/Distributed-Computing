@@ -1,7 +1,4 @@
-package com.company;
-
 import java.util.*;
-
 
 public class RingElection {
     private Scanner scanner;
